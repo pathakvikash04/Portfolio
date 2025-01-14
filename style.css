@@ -473,3 +473,25 @@ form .btn2{
     display: block;
 
 }
+@media screen and (max-width: 768px) {
+    #services,
+    #portfolio,
+    #contact {
+        padding: 10px;
+    }
+    .services-list {
+        grid-gap: 10px;
+    }
+    .services-list div {
+        padding: 15px;
+    }
+    .worklist {
+        grid-gap: 10px;
+    }
+    .btn {
+        padding: 10px 20px;
+    }
+    .social-icons a {
+        font-size: 20px;
+    }
+}
